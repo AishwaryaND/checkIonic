@@ -1,0 +1,136 @@
+Project created on Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time)
+
+ Info | datasourceDB | init | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | createIonicProject | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | Initialized all the DB's
+Success | projectHandler | createIonicProject | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | Project created on file system.
+Success | projectHandler | createIonicProject | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | Added app title to index.html
+ Info | projectHandler | createIonicProject | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | Added bundle id to config.xml
+ Info | projectHandler | createIonicProject | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | Copying over required plugins including mfp plugin
+ Info | projectHandler | createIonicProject | Wed May 13 2020, 23:36:09 GMT+0530 (India Standard Time) | Unzip start: 23:36:09
+Success | projectHandler | createIonicProject | Wed May 13 2020, 23:36:11 GMT+0530 (India Standard Time) | Copied over required app-build.json file
+Success | projectHandler | createIonicProject | Wed May 13 2020, 23:36:13 GMT+0530 (India Standard Time) | Copied over required node modules
+Success | projectHandler | createIonicProject | Wed May 13 2020, 23:36:13 GMT+0530 (India Standard Time) | Copied over required plugins
+Success | projectHandler | createIonicProject | Wed May 13 2020, 23:36:26 GMT+0530 (India Standard Time) | Copied over required cordova-plugin-mgp
+Success | projectHandler | createIonicProject | Wed May 13 2020, 23:36:26 GMT+0530 (India Standard Time) | Unzip finish: 23:36:26
+ Info | projectHandler | createIonicProject | Wed May 13 2020, 23:36:26 GMT+0530 (India Standard Time) | Installing dependencies and adding platform
+ Info | projectHandler | createIonicProject | Wed May 13 2020, 23:36:26 GMT+0530 (India Standard Time) | Running npm install
+ Error | projectHandler | createIonicProject | Wed May 13 2020, 23:37:01 GMT+0530 (India Standard Time) | npm WARN deprecated @angular/http@5.2.11: Package no longer supported. Use @angular/common instead, see https://angular.io/guide/deprecations#angularhttp
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:157314:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:157271:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:157311:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:19435:67)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | projectHandler | loadProjectDatabase | Thu May 14 2020, 00:09:30 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/checkBuilder
+ Info | datasourceDB | init | Thu May 14 2020, 00:09:30 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Thu May 14 2020, 00:09:30 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Thu May 14 2020, 00:09:30 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Thu May 14 2020, 00:09:30 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Thu May 14 2020, 00:09:30 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Thu May 14 2020, 00:09:30 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Thu May 14 2020, 00:09:30 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:09:57 GMT+0530 (India Standard Time) | ✔ Creating ./www directory for you - done!
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:09:57 GMT+0530 (India Standard Time) | > cordova platform add ios@5.0.0 --save
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:09:58 GMT+0530 (India Standard Time) | Using cordova-fetch for cordova-ios@5.0.0
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:14 GMT+0530 (India Standard Time) | Adding ios project...
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:14 GMT+0530 (India Standard Time) | Creating Cordova project for the iOS platform:
+	Path: platforms/ios
+	Package: com.aish
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:14 GMT+0530 (India Standard Time) | 	Name: checkBuilder
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:14 GMT+0530 (India Standard Time) | iOS project created with cordova-ios@5.0.0
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:14 GMT+0530 (India Standard Time) | Installing "cordova-plugin-device" for ios
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:14 GMT+0530 (India Standard Time) | Installing "cordova-plugin-dialogs" for ios
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:15 GMT+0530 (India Standard Time) | Installing "cordova-plugin-globalization" for ios
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:15 GMT+0530 (India Standard Time) | Installing "cordova-plugin-ionic-keyboard" for ios
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:15 GMT+0530 (India Standard Time) | Installing "cordova-plugin-ionic-webview" for ios
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:16 GMT+0530 (India Standard Time) | Installing "cordova-plugin-okhttp" for ios
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:16 GMT+0530 (India Standard Time) | Installing "cordova-plugin-splashscreen" for ios
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:16 GMT+0530 (India Standard Time) | Installing "cordova-plugin-statusbar" for ios
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:16 GMT+0530 (India Standard Time) | Installing "cordova-plugin-whitelist" for ios
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:16 GMT+0530 (India Standard Time) | Plugin 'cordova-plugin-whitelist' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-device' found in config.xml... Migrating it to package.json
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:16 GMT+0530 (India Standard Time) | Plugin 'cordova-plugin-statusbar' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-splashscreen' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-ionic-webview' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-ionic-keyboard' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-mfp' found in config.xml... Migrating it to package.json
+Discovered saved plugin "cordova-plugin-mfp". Adding it to the project
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:25 GMT+0530 (India Standard Time) | Installing "cordova-plugin-mfp" for ios
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:26 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-device@2.0.2" already fetched, using that version.
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:26 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-device" already installed on ios.
+Plugin dependency "cordova-plugin-dialogs@2.0.1" already fetched, using that version.
+Dependent plugin "cordova-plugin-dialogs" already installed on ios.
+Plugin dependency "cordova-plugin-globalization@1.11.0" already fetched, using that version.
+Dependent plugin "cordova-plugin-globalization" already installed on ios.
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:26 GMT+0530 (India Standard Time) | If you made changes to your AppDelegate.m file, manually merge AppDelegate.m.bak with the AppDelegate.m file that is provided with IBM MobileFirst Platform Foundation.
+
+ Info | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:26 GMT+0530 (India Standard Time) | Adding cordova-plugin-mfp to package.json
+
+ Error | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:36 GMT+0530 (India Standard Time) | Error in installing ios sim  Error: Command failed: cd "/Users/aishwaryadodmani/Desktop/checkBuilder/ionic/platforms/ios/cordova" && npm install ios-sim@latest
+npm ERR! cb() never called!
+
+npm ERR! This is an error with npm itself. Please report this error at:
+npm ERR!     <https://npm.community>
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/aishwaryadodmani/.npm/_logs/2020-05-13T18_40_35_006Z-debug.log
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:157314:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:157271:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:157311:5)
+    at http://localhost:1212/dist/renderer.dev.js:23865:49
+    at ChildProcess.exithandler (child_process.js:315:5)
+    at ChildProcess.emit (events.js:203:13)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:203:13)
+    at Pipe.<anonymous> (net.js:588:12) Error | LandingPage | buildProjectIfNeeded | Thu May 14 2020, 00:10:36 GMT+0530 (India Standard Time) | Error in installing ios sim  npm ERR! cb() never called!
+
+npm ERR! This is an error with npm itself. Please report this error at:
+npm ERR!     <https://npm.community>
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/aishwaryadodmani/.npm/_logs/2020-05-13T18_40_35_006Z-debug.log
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:157314:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:157271:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:157311:5)
+    at http://localhost:1212/dist/renderer.dev.js:23873:49
+    at ChildProcess.exithandler (child_process.js:315:5)
+    at ChildProcess.emit (events.js:203:13)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:203:13)
+    at Pipe.<anonymous> (net.js:588:12)
